@@ -4,6 +4,10 @@ D-PPIN is a dynamic network dataset that consists of 12 different dynamic protei
 ## Statistics of D-PPIN
 In each dynamic network of D-PPIN (e.g. Krogan_LCMS), the node represents a gene coding protein, the edge represents the protein-protein interaction at a certain timestamp, and each edge is timestamped like (node_u, node_v, timestamp, weight).
 
+<p align="center"> Table 1. Generated Dynamic Networks. </p>
+![pic](/data_stats.png)
+
+
 ## Generation of D-PPIN
 In brief, two components are needed to construct a dynamic protein-protein interaction network. The first one is a static protein-protein interation network and the second one is the time-aware gene expression value series of each protein in that static network. Through the active and co-expressed protein analysis (as shown in the following figure), a dynamic network is constructed.
 
