@@ -4,7 +4,7 @@ D-PPIN is a dynamic network dataset that consists of 12 different dynamic protei
 In each dynamic network of D-PPIN (e.g. Krogan_LCMS), the node represents a gene coding protein, the edge represents the protein-protein interaction at a certain timestamp, and each edge is timestamped like (node_u, node_v, timestamp, weight). In each folder, "Dynamic_PPIN.txt" stores temporal edges at different timestamps, "Static_PPIN.txt" stores the original static network, and "Node_Features" records the temporal gene expression value of each protein and the format is "id, node, value_at_t_1, ..., value_at_t_36".
 
 ## Statistics of D-PPIN
-The statistics of all 12 generated networks are shown in Table 1. 
+The statistics of all 12 generated dynamic networks are shown in Table 1. 
 
 <p align="center"> Table 1. Generated Dynamic Networks. </p>
 <p align="center"> <img align="center" src="/data_stats.png" width="377" height="291"> </p>
