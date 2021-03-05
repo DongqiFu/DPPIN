@@ -22,6 +22,9 @@ The yeast temporal gene expression value from the paper "Tu BP, Kudlicki A, Rowi
 
 The dynamic network construction is mainly adopted from "Zhang, Yijia, Hongfei Lin, Zhihao Yang, Jian Wang, Yiwei Liu, and Shengtian Sang. "A method for predicting protein complex in dynamic PPI networks." BMC bioinformatics(2016).", which is available at this [link](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1101-y).
 
-The dynamic networks are constructed in each folder. If you want to construct again on your own and modify some parameters, just run main.py, and the prerequisites are listed below.
+## How to Run
+The dynamic networks are constructed in each folder, users can directly use it. If you want to construct again on your own and modify some parameters, just run main.py. The main.py program will analyze the 'GES3431' gene expression value and the static network in each folder to generate the corresponding dynamic network and store it in that folder.
+
+The prerequisites are listed below.
 - numpy 1.20.1
 - scipy 1.6.0
