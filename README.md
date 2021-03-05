@@ -7,7 +7,7 @@ In each dynamic network of D-PPIN (e.g. Krogan_LCMS), the node represents a gene
 ## Generation of D-PPIN
 In brief, two components are needed to construct a dynamic protein-protein interaction network. The first one is a static protein-protein interation network and the second one is the time-aware gene expression value series of each protein in that static network. Through the active and co-expressed protein analysis (as shown in the following figure), a dynamic network is constructed.
 
-![pic]((/generation_process.png))
+![pic](/generation_process.png)
 Figure 1. Dynamic Protein Network Generation Process 
 
 The static networks for building D-PPIN is available at this [link](https://www.inetbio.org/yeastnet/downloadnetwork.php).
