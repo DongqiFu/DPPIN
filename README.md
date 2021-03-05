@@ -2,14 +2,14 @@
 D-PPIN is a dynamic network dataset that consists of 12 different dynamic protein-protein interaction networks of yeast cells.
 
 ## Statistics of D-PPIN
-In each dynamic network of D-PPIN (e.g. Krogan_LCMS), the node represents a gene coding protein, the edge represents the protein-protein interaction at a certain timestamp, and each edge is timestamped like (node_u, node_v, timestamp, weight).
+In each dynamic network of D-PPIN (e.g. Krogan_LCMS), the node represents a gene coding protein, the edge represents the protein-protein interaction at a certain timestamp, and each edge is timestamped like (node_u, node_v, timestamp, weight). The statistics of all 12 networks are shown in Table 1. In each folder, 'Dynamic_PPIN.txt' stores temporal edges at different timestamps, 'Static_PPIN.txt' stores the original static network, and 'Node_Features' records the temporal gene expression value of each protein and the format is 'id, node, value_at_t_1, ..., value_at_t_36'.
 
 <p align="center"> Table 1. Generated Dynamic Networks. </p>
 <p align="center"> <img align="center" src="/data_stats.png" width="377" height="291"> </p>
 
 
 ## Generation of D-PPIN
-In brief, two components are needed to construct a dynamic protein-protein interaction network. The first one is a static protein-protein interation network and the second one is the time-aware gene expression value series of each protein in that static network. Through the active and co-expressed protein analysis (as shown in the following figure), a dynamic network is constructed.
+In brief, two components are needed to construct a dynamic protein-protein interaction network. The first one is a static protein-protein interation network and the second one is the time-aware gene expression value series of each protein in that static network. Through the active and co-expressed protein analysis (as shown in Figure 1), a dynamic network is constructed.
 
 ![pic](/generation_process.png)
 <p align="center"> Figure 1. Dynamic Protein Network Generation Process. </p>
