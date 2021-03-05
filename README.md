@@ -15,7 +15,9 @@ In brief, two components are needed to construct a dynamic protein-protein inter
 <p align="center"> Figure 1. Dynamic Protein Network Generation Process. </p>
 
 The static networks for building D-PPIN is available at this [link](https://www.inetbio.org/yeastnet/downloadnetwork.php).
+
 The yeast temporal gene expression value from the paper "Tu BP, Kudlicki A, Rowicka M, McKnight SL. Logic of the yeast metabolic cycle: temporal compartmentalization of cellular processes. Science 2005 Nov" is available at this [link](https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE3431).
+
 The dynamic network construction is mainly adopted from "Zhang, Yijia, Hongfei Lin, Zhihao Yang, Jian Wang, Yiwei Liu, and Shengtian Sang. "A method for predicting protein complex in dynamic PPI networks." BMC bioinformatics(2016).", which is available at this [link](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1101-y).
 
 The dynamic networks are constructed in each folder. If you want to construct again on your own and modify some parameters, just run main.py, and the prerequisites are listed below.
