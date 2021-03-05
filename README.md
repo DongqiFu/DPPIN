@@ -6,7 +6,7 @@ In each dynamic network of D-PPIN (e.g. Krogan_LCMS), the node represents a gene
 
 <p align="center"> Table 1. Generated Dynamic Networks. </p>
 
-<img align = "center" src="/data_stats.png" width="350" height="200">
+<img align = "center" src="/data_stats.png" width="350" height="300">
 
 
 ## Generation of D-PPIN
