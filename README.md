@@ -1,7 +1,7 @@
 # D-PPIN
 D-PPIN is a dynamic network dataset, which consists of 12 generated dynamic protein-protein interaction networks of yeast cells in 12 folders.
 
-In each folder(e.g. Krogan_LCMS),
+In each folder (e.g. Krogan_LCMS),
 
 - "Dynamic_PPIN.txt" stores temporal connections of the generated dynamic network. To be specific, a node represents a gene coding protein, an edge represents a protein-protein interaction at a certain timestamp, and each edge is timestamped like (node_u, node_v, timestamp, weight).
 
