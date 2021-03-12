@@ -7,7 +7,7 @@ In each folder(e.g. Krogan_LCMS),
 
 - "Static_PPIN.txt" stores connections of the input static network, each edge is shown as (node_u, node_v, weight).
 
-- "Node_Features" records the temporal gene expression value of each protein node, and the format is "node_id, node_name, value_at_t_1, ..., value_at_t_36".
+- "Node_Features" records the temporal gene expression value of each protein node, and the format is "node_id, node_name, value_at_t_1, value_at_t_2, ..., value_at_t_36".
 
 Moreover, "Node_Labels.xlsx" stores labels (i.e., types) of 6,738 protein nodes shared by 12 folders, which covers the label of each node from 12 generated dynamic protein-protein interaction networks. The label of each protein is retrievaled from the [Saccharomyces Genome Database](https://www.yeastgenome.org/).
 
