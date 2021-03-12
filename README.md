@@ -1,11 +1,16 @@
 # D-PPIN
-D-PPIN is a dynamic network dataset, which consists of 12 different dynamic protein-protein interaction networks of yeast cells in 12 folders.
+D-PPIN is a dynamic network dataset, which consists of 12 generated dynamic protein-protein interaction networks of yeast cells in 12 folders.
 
-In each dynamic network of D-PPIN (e.g. Krogan_LCMS), the node represents a gene coding protein, the edge represents the protein-protein interaction at a certain timestamp, and each edge is timestamped like (node_u, node_v, timestamp, weight).
+In each folder(e.g. Krogan_LCMS),
 
-In each folder, "Dynamic_PPIN.txt" stores temporal edges at different timestamps, "Static_PPIN.txt" stores the original static network, and "Node_Features" records the temporal gene expression value of each protein and the format is "id, node, value_at_t_1, ..., value_at_t_36".
+- "Dynamic_PPIN.txt" stores temporal connections of the generated dynamic network. To be specific, a node represents a gene coding protein, an edge represents a protein-protein interaction at a certain timestamp, and each edge is timestamped like (node_u, node_v, timestamp, weight).
 
-Plus, "Node_Labels.xlsx" stores labels (i.e., types) of 6,738 protein nodes, which covers each node of 12 generated dynamic protein-protein interaction networks. The label of each  protein is retrievaled from the [Saccharomyces Genome Database](https://www.yeastgenome.org/).
+- "Static_PPIN.txt" stores connections of the input static network, each edge is shown as (node_u, node_v, weight).
+
+- "Node_Features" records the temporal gene expression value of each protein node, and the format is "node_id, node_name, value_at_t_1, ..., value_at_t_36".
+
+Moreover, "Node_Labels.xlsx" stores labels (i.e., types) of 6,738 protein nodes shared by 12 folders, which covers the label of each node from 12 generated dynamic protein-protein interaction networks. The label of each protein is retrievaled from the [Saccharomyces Genome Database](https://www.yeastgenome.org/).
+
 
 ## Statistics of D-PPIN
 The statistics of all 12 generated dynamic networks are shown in Table 1. 
