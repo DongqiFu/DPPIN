@@ -5,6 +5,8 @@ In each dynamic network of D-PPIN (e.g. Krogan_LCMS), the node represents a gene
 
 In each folder, "Dynamic_PPIN.txt" stores temporal edges at different timestamps, "Static_PPIN.txt" stores the original static network, and "Node_Features" records the temporal gene expression value of each protein and the format is "id, node, value_at_t_1, ..., value_at_t_36".
 
+Plus, "Node_Labels.xlsx" stores labels (i.e., types) of 6,738 protein nodes, which covers each node of 12 generated dynamic protein-protein interaction networks. The label of each  protein is retrievaled from the [Saccharomyces Genome Database](https://www.yeastgenome.org/).
+
 ## Statistics of D-PPIN
 The statistics of all 12 generated dynamic networks are shown in Table 1. 
 
