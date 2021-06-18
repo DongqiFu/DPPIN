@@ -15,8 +15,8 @@ Moreover, "Node_Labels.xlsx" stores labels (i.e., types) of 6,738 protein nodes 
 ## Statistics of DPPIN
 The statistics of all 12 generated dynamic networks are shown in Table 1. 
 
-<p align="center"> Table 1. Generated Dynamic Networks. </p>
-<p align="center"> <img align="center" src="/data_stats.png" width="377" height="291"> </p>
+<p align="center"> Table 1. Generated Dynamic Networks in DPPIN. </p>
+<p align="center"> <img align="center" src="/data_stats.jpg" width="377" height="291"> </p>
 
 
 ## Generation Process of DPPIN
