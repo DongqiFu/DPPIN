@@ -26,7 +26,7 @@ In brief, two inputs are required to construct a dynamic protein-protein interac
 <p align="center"> Figure 1. Dynamic Protein Network Generation Process. </p>
 
 The static networks for building DPPIN are available at [YeastNet](https://www.inetbio.org/yeastnet/downloadnetwork.php).
-The yeast temporal gene expression value (GSE3431.txt) from the paper "Tu et al., Logic of the Yeast Metabolic Cycle: Temporal Compartmentalization of Cellular Processes. Science 2005." is available at [NCBI](https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE3431).
+The yeast temporal gene expression value (GSE3431.txt) from ["Tu et al., Logic of the Yeast Metabolic Cycle: Temporal Compartmentalization of Cellular Processes. Science 2005."](https://science.sciencemag.org/content/310/5751/1152) is available at [NCBI](https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE3431).
 
 The dynamic network construction method is mainly adopted from ["Zhang et al., A method for predicting protein complex in dynamic PPI networks. BMC Bioinformatics 2016."](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1101-y).
 
