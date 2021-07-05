@@ -22,7 +22,7 @@ The statistics of the twelve generated dynamic networks are shown in Table 1.
 ## Generation Process of DPPIN
 In brief, two inputs are required to construct a dynamic protein-protein interaction network. The first one is a static protein-protein interation network and the second one is the time-aware gene expression value series of each protein. Through the activity and co-expression analysis (as shown in Figure 1), a dynamic network is constructed.
 
-![pic](/generation_process.png)
+![pic](/Generation_Process.png)
 <p align="center"> Figure 1. Dynamic Protein Network Generation Process. </p>
 
 The static networks for building DPPIN are available at [YeastNet](https://www.inetbio.org/yeastnet/downloadnetwork.php).
