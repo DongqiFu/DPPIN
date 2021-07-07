@@ -86,10 +86,10 @@ def load_static_PPI(num_proteins, PPIN_network, protein2id):
 
 if __name__ == '__main__':
     gene_expression = 'GSE3431.txt'
-    PPIN_network_list = ['Yu/Static_PPIN.txt', 'Babu/Static_PPIN.txt', 'Breitkreutz/Static_PPIN.txt', 'Gavin/Static_PPIN.txt',
-                         'Hazbun/Static_PPIN.txt', 'Ho/Static_PPIN.txt', 'Ito/Static_PPIN.txt',
-                         'Krogan_LCMS/Static_PPIN.txt', 'Krogan_MALDI/Static_PPIN.txt', 'Lambert/Static_PPIN.txt',
-                         'Tarassov/Static_PPIN.txt', 'Uetz/Static_PPIN.txt']
+    PPIN_network_list = ['DPPIN-Yu/Static_PPIN.txt', 'DPPIN-Babu/Static_PPIN.txt', 'DPPIN-Breitkreutz/Static_PPIN.txt', 'DPPIN-Gavin/Static_PPIN.txt',
+                         'DPPIN-Hazbun/Static_PPIN.txt', 'DPPIN-Ho/Static_PPIN.txt', 'DPPIN-Ito/Static_PPIN.txt',
+                         'DPPIN-Krogan(LCMS)/Static_PPIN.txt', 'DPPIN-Krogan(MALDI)/Static_PPIN.txt', 'DPPIN-Lambert/Static_PPIN.txt',
+                         'DPPIN-Tarassov/Static_PPIN.txt', 'DPPIN-Uetz/Static_PPIN.txt']
 
     for PPIN_network in PPIN_network_list:
         # - Get common appeared proteins (i.e., genes) from PPI network and GSE3431 gene expression data - #
