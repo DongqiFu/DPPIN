@@ -42,12 +42,19 @@ The program is written under Python 3.7, and the prerequisites are listed below.
 ## Reference
 If you use the materials from this repositiory, please refer to our paper.
 ```
-@misc{fu2021dppin,
-      title={DPPIN: A Biological Dataset of Dynamic Protein-Protein Interaction Networks}, 
-      author={Dongqi Fu and Jingrui He},
-      year={2021},
-      eprint={2107.02168},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+@article{DBLP:journals/corr/abs-2107-02168,
+  author    = {Dongqi Fu and
+               Jingrui He},
+  title     = {{DPPIN:} {A} Biological Dataset of Dynamic Protein-Protein Interaction
+               Networks},
+  journal   = {CoRR},
+  volume    = {abs/2107.02168},
+  year      = {2021},
+  url       = {https://arxiv.org/abs/2107.02168},
+  archivePrefix = {arXiv},
+  eprint    = {2107.02168},
+  timestamp = {Wed, 07 Jul 2021 15:23:11 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2107-02168.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
