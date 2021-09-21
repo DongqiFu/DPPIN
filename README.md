@@ -12,14 +12,14 @@ In each folder (e.g. DPPIN-Krogan(LCMS)),
 Moreover, "Node_Labels.xlsx" stores labels (i.e., types) of 6,738 protein nodes shared by twelve dynamic networks in DPPIN, which covers the label of each node from each dynamic network. The label of each protein is retrievaled from [Saccharomyces Genome Database](https://www.yeastgenome.org/).
 
 
-## Statistics of DPPIN
+## Statistics of Datasets in DPPIN
 The statistics of the twelve generated dynamic networks are shown in Table 1. 
 
 <p align="center"> Table 1. Statistics of DPPIN. </p>
 <p align="center"> <img align="center" src="/data_stats.jpg" width="840" height="280"> </p>
 
 
-## Generation Process of Dynamic Network
+## Generation Process of Dynamic Networks
 In brief, two inputs are required to construct a dynamic protein-protein interaction network. The first one is a static protein-protein interation network and the second one is the time-aware gene expression value series of each protein. Through the activity and co-expression analysis (as shown in Figure 1), a dynamic network is constructed.
 
 ![pic](/Generation_Process.png)
