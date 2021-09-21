@@ -1,5 +1,5 @@
 # DPPIN: A Biological Repository of Dynamic Protein-Protein Interaction Network Data
-DPPIN is a collection of dynamic network datasets, which consists of twelve generated dynamic protein-protein interaction networks of yeast cells, stored in twelve folders.
+DPPIN is a collection of dynamic network datasets, which consists of twelve generated dynamic protein-protein interaction network datasets, stored in twelve folders.
 
 In each folder (e.g. DPPIN-Krogan(LCMS)),
 
@@ -23,12 +23,12 @@ The statistics of the twelve generated dynamic networks are shown in Table 1.
 In brief, two inputs are required to construct a dynamic protein-protein interaction network. The first one is a static protein-protein interation network and the second one is the time-aware gene expression value series of each protein. Through the activity and co-expression analysis (as shown in Figure 1), a dynamic network is constructed.
 
 ![pic](/Generation_Process.png)
-<p align="center"> Figure 1. Dynamic Protein Network Generation Process. </p>
+<p align="center"> Figure 1. Dynamic Protein Interaction Network Generation Process. </p>
 
-The static networks for building DPPIN are available at [YeastNet](https://www.inetbio.org/yeastnet/downloadnetwork.php).
-The yeast temporal gene expression value (GSE3431.txt) from ["Tu et al., Logic of the Yeast Metabolic Cycle: Temporal Compartmentalization of Cellular Processes. Science 2005."](https://science.sciencemag.org/content/310/5751/1152) is available at [NCBI](https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE3431).
+The static networks for building the corresponding dynamic networks of DPPIN are available at [YeastNet](https://www.inetbio.org/yeastnet/downloadnetwork.php).
+The yeast temporal gene expression value (GSE3431.txt) retrieved from ["Tu et al., Logic of the Yeast Metabolic Cycle: Temporal Compartmentalization of Cellular Processes. Science 2005."](https://science.sciencemag.org/content/310/5751/1152) is also available at [NCBI](https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE3431).
 
-The dynamic network construction method is mainly adopted from ["Zhang et al., A method for predicting protein complex in dynamic PPI networks. BMC Bioinformatics 2016."](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1101-y).
+The method for constructing a dynamic network is mainly adopted from ["Zhang et al., A method for predicting protein complex in dynamic PPI networks. BMC Bioinformatics 2016."](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-016-1101-y).
 
 
 ## How to Run
