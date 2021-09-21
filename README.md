@@ -9,7 +9,7 @@ In each folder (e.g. DPPIN-Krogan(LCMS)),
 
 - "Node_Features" records the temporal gene expression value of each protein node, and the format is "node_id, node_name, value_at_t_1, value_at_t_2, ..., value_at_t_36".
 
-Moreover, "Node_Labels.xlsx" stores labels (i.e., types) of 6,738 protein nodes shared by twelve dynamic networks in DPPIN, which covers the label of each node from each dynamic network. The label of each protein is retrievaled from [Saccharomyces Genome Database](https://www.yeastgenome.org/).
+Moreover, "Node_Labels.xlsx" stores labels (i.e., types) of 6,738 protein nodes shared by twelve dynamic network datasets in DPPIN, which covers the label of each node from each dynamic network. The label of each protein is retrievaled from [Saccharomyces Genome Database](https://www.yeastgenome.org/).
 
 
 ## Statistics of Datasets in DPPIN
