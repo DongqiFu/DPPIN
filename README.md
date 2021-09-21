@@ -23,7 +23,7 @@ The statistics of the twelve generated dynamic networks are shown in Table 1.
 In brief, two inputs are required to construct a dynamic protein-protein interaction network. The first one is a static protein-protein interation network and the second one is the time-aware gene expression value series of each protein. Through the activity and co-expression analysis (as shown in Figure 1), a dynamic network is constructed.
 
 ![pic](/Generation_Process.png)
-<p align="center"> Figure 1. Generation of a Dynamic Protein Interaction Network. </p>
+<p align="center"> Figure 1. Generation of a Dynamic Protein-Protein Interaction Network. </p>
 
 The static networks for building the corresponding dynamic networks of DPPIN are available at [YeastNet](https://www.inetbio.org/yeastnet/downloadnetwork.php).
 The yeast temporal gene expression value (GSE3431.txt) retrieved from ["Tu et al., Logic of the Yeast Metabolic Cycle: Temporal Compartmentalization of Cellular Processes. Science 2005."](https://science.sciencemag.org/content/310/5751/1152) is also available at [NCBI](https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE3431).
