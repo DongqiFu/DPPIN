@@ -1,5 +1,5 @@
 # DPPIN: A Biological Repository of Dynamic Protein-Protein Interaction Network Data
-DPPIN is a collection of dynamic networks, which consists of twelve generated dynamic protein-protein interaction networks of yeast cells, stored in twelve folders.
+DPPIN is a collection of dynamic network datasets, which consists of twelve generated dynamic protein-protein interaction networks of yeast cells, stored in twelve folders.
 
 In each folder (e.g. DPPIN-Krogan(LCMS)),
 
