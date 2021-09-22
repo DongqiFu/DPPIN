@@ -45,8 +45,7 @@ If you use the materials from this repositiory, please refer to our paper.
 @article{DBLP:journals/corr/abs-2107-02168,
   author    = {Dongqi Fu and
                Jingrui He},
-  title     = {{DPPIN:} {A} Biological Dataset of Dynamic Protein-Protein Interaction
-               Networks},
+  title     = {{DPPIN:} {A} Biological Repository of Dynamic Protein-Protein Interaction Network Data},
   journal   = {CoRR},
   volume    = {abs/2107.02168},
   year      = {2021},
