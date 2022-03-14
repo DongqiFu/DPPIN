@@ -20,7 +20,7 @@ The statistics of the twelve generated dynamic network datasets are shown in Tab
 
 
 ## Generation Process of Dynamic Networks
-In brief, two inputs are required to construct a dynamic protein-protein interaction network. The first one is a static protein-protein interation network and the second one is the time-aware gene expression value series of each protein. Through the activity and co-expression analysis (as shown in Figure 1), a dynamic network is constructed.
+In brief, two inputs are required to construct a dynamic protein-protein interaction network. The **first one** is a static protein-protein interation network and the **second one** is the time-aware gene expression value series of each protein. Through the activity and co-expression analysis (as shown in Figure 1), a dynamic network is constructed.
 
 ![pic](/Generation_Process.png)
 <p align="center"> Figure 1. Generation of a Dynamic Protein-Protein Interaction Network. </p>
