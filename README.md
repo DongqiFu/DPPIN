@@ -11,6 +11,8 @@ In each folder (e.g. DPPIN-Krogan(LCMS)),
 
 Moreover, "Node_Labels.xlsx" stores labels (i.e., types) of 6,738 protein nodes shared by twelve dynamic network datasets in DPPIN, which covers the label of each node from each dynamic network. The label of each protein is retrievaled from [Saccharomyces Genome Database](https://www.yeastgenome.org/).
 
+## Paper Link
+[Preprint Paper](https://arxiv.org/pdf/2107.02168.pdf)
 
 ## Statistics of Generated Datasets in DPPIN
 The statistics of the twelve generated dynamic network datasets are shown in Table 1. 
