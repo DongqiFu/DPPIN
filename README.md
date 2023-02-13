@@ -46,18 +46,20 @@ The program is written under Python 3.7, and the prerequisites are listed below.
 ## Reference
 If you use the materials from this repositiory, please refer to our paper.
 ```
-@article{DBLP:journals/corr/abs-2107-02168,
+@inproceedings{DBLP:conf/bigdataconf/FuH22,
   author    = {Dongqi Fu and
                Jingrui He},
-  title     = {{DPPIN:} {A} Biological Repository of Dynamic Protein-Protein Interaction Network Data},
-  journal   = {CoRR},
-  volume    = {abs/2107.02168},
-  year      = {2021},
-  url       = {https://arxiv.org/abs/2107.02168},
-  archivePrefix = {arXiv},
-  eprint    = {2107.02168},
-  timestamp = {Wed, 07 Jul 2021 15:23:11 +0200},
-  biburl    = {https://dblp.org/rec/journals/corr/abs-2107-02168.bib},
+  title     = {{DPPIN:} {A} Biological Repository of Dynamic Protein-Protein Interaction
+               Network Data},
+  booktitle = {{IEEE} International Conference on Big Data, Big Data 2022, Osaka,
+               Japan, December 17-20, 2022},
+  pages     = {5269--5277},
+  publisher = {{IEEE}},
+  year      = {2022},
+  url       = {https://doi.org/10.1109/BigData55660.2022.10020904},
+  doi       = {10.1109/BigData55660.2022.10020904},
+  timestamp = {Fri, 10 Feb 2023 18:39:54 +0100},
+  biburl    = {https://dblp.org/rec/conf/bigdataconf/FuH22.bib},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 ```
